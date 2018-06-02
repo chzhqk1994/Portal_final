@@ -1,3 +1,5 @@
+package kr.ac.jejunu;
+
 import org.junit.Test;
 
 import java.sql.Connection;
