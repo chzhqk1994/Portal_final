@@ -9,6 +9,9 @@
 
     <!--정적자원 매핑-->
     <mvc:resources mapping="/resources/**" location="/resources/"/>
+    <mvc:resources mapping="/bower_components/**" location="/resources/bower_components/"/>
+    <mvc:resources mapping="/plugins/**" location="/resources/plugins/"/>
+    <mvc:resources mapping="/dist/**" location="/resources/dist/"/>
 
     <!--viewResolver 설정-->
     <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
@@ -18,5 +21,6 @@
 
     <!--기본패키지 설정-->
     <context:component-scan base-package="kr.ac.jejunu"/>
+
 
 </beans>

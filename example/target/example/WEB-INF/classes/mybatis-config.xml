@@ -4,9 +4,4 @@
         "http://mybatis.org/dtd/mybatis-3-config.dtd">
 <configuration>
 
-    <!--패키지명 등록-->
-    <typeAliases>
-        <package name="com.doubles.ex03.domain"/>
-    </typeAliases>
-
 </configuration>
