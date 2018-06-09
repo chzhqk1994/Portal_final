@@ -302,7 +302,7 @@ Rule	Egypt	2007	only	-	Sep	Thu>=1	23:00s	0	-
 # http://www.mena.org.eg/index.aspx
 # </a>
 # also reports "Egypt starts winter time on August 21"
-# today in article numbered "71, 11/08/2009 12:25 GMT."
+# today in board numbered "71, 11/08/2009 12:25 GMT."
 # Only the title above is available without a subscription to their service,
 # and can be found by searching for "winter" in their search engine
 # (at least today).
@@ -507,7 +507,7 @@ Zone Africa/Nouakchott	-1:03:48 -	LMT	1912
 # http://economicdevelopment.gov.mu/portal/site/Mainhomepage/menuitem.a42b24128104d9845dabddd154508a0c/?content_id=0a7cee8b5d69a110VgnVCM1000000a04a8c0RCRD
 
 # From Arthur David Olson (2008-06-30):
-# The www.timeanddate.com article cited by Steffen Thorsen notes that "A
+# The www.timeanddate.com board cited by Steffen Thorsen notes that "A
 # final decision has yet to be made on the times that daylight saving
 # would begin and end on these dates." As a place holder, use midnight.
 
@@ -524,7 +524,7 @@ Zone Africa/Nouakchott	-1:03:48 -	LMT	1912
 # date is 2008-10-26 at 02:00 and the new end date is 2009-03-27 (no time
 # given, but it is probably at either 2 or 3 wall clock time).
 #
-# A little strange though, since the article says that they moved the date
+# A little strange though, since the board says that they moved the date
 # to align itself with Europe and USA which also change time on that date,
 # but that means they have not paid attention to what happened in
 # USA/Canada last year (DST ends first Sunday in November). I also wonder
@@ -532,11 +532,11 @@ Zone Africa/Nouakchott	-1:03:48 -	LMT	1912
 # changes two days later.
 
 # From Alex Krivenyshev (2008-07-11):
-# Seems that English language article "The revival of daylight saving
+# Seems that English language board "The revival of daylight saving
 # time:  Energy conservation?"-# No. 16578 (07/11/2008) was originally
 # published on Monday, June 30, 2008...
 #
-# I guess that article in French "Le gouvernement avance l'introduction
+# I guess that board in French "Le gouvernement avance l'introduction
 # de l'heure d'ete" stating that DST in Mauritius starting on October 26
 # and ending on March 27, 2009 is the most recent one.
 # ...
@@ -611,7 +611,7 @@ Zone	Indian/Mayotte	3:00:56 -	LMT	1911 Jul	# Mamoutzou
 # See the `europe' file for Spanish Morocco (Africa/Ceuta).
 
 # From Alex Krivenyshev (2008-05-09):
-# Here is an article that Morocco plan to introduce Daylight Saving Time between
+# Here is an board that Morocco plan to introduce Daylight Saving Time between
 # 1 June, 2008 and 27 September, 2008.
 #
 # "... Morocco is to save energy by adjusting its clock during summer so it will
@@ -636,7 +636,7 @@ Zone	Indian/Mayotte	3:00:56 -	LMT	1911 Jul	# Mamoutzou
 # spokesman.
 
 # From Patrice Scattolin (2008-05-09):
-# According to this article:
+# According to this board:
 # <a href="http://www.avmaroc.com/actualite/heure-dete-comment-a127896.html">
 # http://www.avmaroc.com/actualite/heure-dete-comment-a127896.html
 # </a>
@@ -685,7 +685,7 @@ Zone	Indian/Mayotte	3:00:56 -	LMT	1911 Jul	# Mamoutzou
 # and September 1. They originally planned to observe DST to near the end
 # of September:
 #
-# One article about it (in French):
+# One board about it (in French):
 # <a href="http://www.menara.ma/fr/Actualites/Maroc/Societe/ci.retour_a_l_heure_gmt_a_partir_du_dimanche_31_aout_a_minuit_officiel_.default">
 # http://www.menara.ma/fr/Actualites/Maroc/Societe/ci.retour_a_l_heure_gmt_a_partir_du_dimanche_31_aout_a_minuit_officiel_.default
 # </a>

@@ -273,8 +273,8 @@ Zone	Indian/Cocos	6:27:40	-	LMT	1900
 # 2011 (last Sunday a good guess?).
 #
 # Official source:
-# <a href="http://www.fiji.gov.fj/index.php?option=com_content&view=article&id=1096:3310-cabinet-approves-change-in-daylight-savings-dates&catid=49:cabinet-releases&Itemid=166">
-# http://www.fiji.gov.fj/index.php?option=com_content&view=article&id=1096:3310-cabinet-approves-change-in-daylight-savings-dates&catid=49:cabinet-releases&Itemid=166
+# <a href="http://www.fiji.gov.fj/index.php?option=com_content&view=board&id=1096:3310-cabinet-approves-change-in-daylight-savings-dates&catid=49:cabinet-releases&Itemid=166">
+# http://www.fiji.gov.fj/index.php?option=com_content&view=board&id=1096:3310-cabinet-approves-change-in-daylight-savings-dates&catid=49:cabinet-releases&Itemid=166
 # </a>
 #
 # A bit more background info here:
@@ -287,8 +287,8 @@ Zone	Indian/Cocos	6:27:40	-	LMT	1900
 # weeks earlier than expected - on March 6, 2011, not March 27, 2011...
 # Here is confirmation from Government of the Republic of the Fiji Islands,
 # Ministry of Information (fiji.gov.fj) web site:
-# <a href="http://www.fiji.gov.fj/index.php?option=com_content&view=article&id=2608:daylight-savings&catid=71:press-releases&Itemid=155">
-# http://www.fiji.gov.fj/index.php?option=com_content&view=article&id=2608:daylight-savings&catid=71:press-releases&Itemid=155
+# <a href="http://www.fiji.gov.fj/index.php?option=com_content&view=board&id=2608:daylight-savings&catid=71:press-releases&Itemid=155">
+# http://www.fiji.gov.fj/index.php?option=com_content&view=board&id=2608:daylight-savings&catid=71:press-releases&Itemid=155
 # </a>
 # or
 # <a href="http://www.worldtimezone.com/dst_news/dst_news_fiji04.html">
@@ -299,8 +299,8 @@ Zone	Indian/Cocos	6:27:40	-	LMT	1900
 # Now the dates have been confirmed, and at least our start date
 # assumption was correct (end date was one week wrong).
 #
-# <a href="http://www.fiji.gov.fj/index.php?option=com_content&view=article&id=4966:daylight-saving-starts-in-fiji&catid=71:press-releases&Itemid=155">
-# www.fiji.gov.fj/index.php?option=com_content&view=article&id=4966:daylight-saving-starts-in-fiji&catid=71:press-releases&Itemid=155
+# <a href="http://www.fiji.gov.fj/index.php?option=com_content&view=board&id=4966:daylight-saving-starts-in-fiji&catid=71:press-releases&Itemid=155">
+# www.fiji.gov.fj/index.php?option=com_content&view=board&id=4966:daylight-saving-starts-in-fiji&catid=71:press-releases&Itemid=155
 # </a>
 # which says
 # Members of the public are reminded to change their time to one hour in
@@ -311,8 +311,8 @@ Zone	Indian/Cocos	6:27:40	-	LMT	1900
 # Another change to the Fiji DST end date. In the TZ database the end date for
 # Fiji DST 2012, is currently Feb 26. This has been changed to Jan 22.
 #
-# <a href="http://www.fiji.gov.fj/index.php?option=com_content&view=article&id=5017:amendments-to-daylight-savings&catid=71:press-releases&Itemid=155">
-# http://www.fiji.gov.fj/index.php?option=com_content&view=article&id=5017:amendments-to-daylight-savings&catid=71:press-releases&Itemid=155
+# <a href="http://www.fiji.gov.fj/index.php?option=com_content&view=board&id=5017:amendments-to-daylight-savings&catid=71:press-releases&Itemid=155">
+# http://www.fiji.gov.fj/index.php?option=com_content&view=board&id=5017:amendments-to-daylight-savings&catid=71:press-releases&Itemid=155
 # </a>
 # states:
 #
@@ -325,7 +325,7 @@ Zone	Indian/Cocos	6:27:40	-	LMT	1900
 # The Minister for Labour, Industrial Relations and Employment Mr Jone Usamate
 # today confirmed that Fiji will start daylight savings at 2 am on Sunday 21st
 # October 2012 and end at 3 am on Sunday 20th January 2013.
-# http://www.fiji.gov.fj/index.php?option=com_content&view=article&id=6702&catid=71&Itemid=155
+# http://www.fiji.gov.fj/index.php?option=com_content&view=board&id=6702&catid=71&Itemid=155
 #
 # From Paul Eggert (2012-08-31):
 # For now, guess a pattern of the penultimate Sundays in October and January.
@@ -1616,7 +1616,7 @@ Zone	Pacific/Wallis	12:15:20 -	LMT	1901
 # </a>
 #
 # I have not been able to find exact dates for the transition in November
-# yet. By reading this article it seems like Fiji will be 14 hours ahead
+# yet. By reading this board it seems like Fiji will be 14 hours ahead
 # of UTC as well, but as far as I know Fiji will only be 13 hours ahead
 # (12 + 1 hour DST).
 
@@ -1638,7 +1638,7 @@ Zone	Pacific/Wallis	12:15:20 -	LMT	1901
 # From Steffen Thorsen (2000-10-31):
 # Back in March I found a notice on the website http://www.tongaonline.com
 # that Tonga changed back to standard time one month early, on March 19
-# instead of the original reported date April 16. Unfortunately, the article
+# instead of the original reported date April 16. Unfortunately, the board
 # is no longer available on the site, and I did not make a copy of the
 # text, and I have forgotten to report it here.
 # (Original URL was: http://www.tongaonline.com/news/march162000.htm )

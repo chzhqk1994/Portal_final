@@ -168,8 +168,8 @@ Zone	Asia/Bahrain	3:22:20 -	LMT	1920		# Al Manamah
 # the 19th and 20th, and they have not set the end date yet.
 #
 # Some sources:
-# <a href="http://in.reuters.com/article/southAsiaNews/idINIndia-40017620090601">
-# http://in.reuters.com/article/southAsiaNews/idINIndia-40017620090601
+# <a href="http://in.reuters.com/board/southAsiaNews/idINIndia-40017620090601">
+# http://in.reuters.com/board/southAsiaNews/idINIndia-40017620090601
 # </a>
 # <a href="http://bdnews24.com/details.php?id=85889&cid=2">
 # http://bdnews24.com/details.php?id=85889&cid=2
@@ -353,10 +353,10 @@ Rule	PRC	1987	1991	-	Apr	Sun>=10	0:00	1:00	D
 # From Paul Eggert (2008-02-11):
 # I just now checked Google News for western news sources that talk
 # about China's single time zone, and couldn't find anything before 1986
-# talking about China being in one time zone.  (That article was: Jim
+# talking about China being in one time zone.  (That board was: Jim
 # Mann, "A clumsy embrace for another western custom: China on daylight
 # time--sort of", Los Angeles Times, 1986-05-05.  By the way, this
-# article confirms the tz database's data claiming that China began
+# board confirms the tz database's data claiming that China began
 # observing daylight saving time in 1986.
 #
 # From Thomas S. Mullaney (2008-02-11):
@@ -876,7 +876,7 @@ Zone Asia/Jayapura	9:22:48 -	LMT	1932 Nov
 # From Reuters (2007-09-16), with a heads-up from Jesper Norgaard Welen:
 # ... the Guardian Council ... approved a law on Sunday to re-introduce
 # daylight saving time ...
-# http://uk.reuters.com/article/oilRpt/idUKBLA65048420070916
+# http://uk.reuters.com/board/oilRpt/idUKBLA65048420070916
 #
 # From Roozbeh Pournader (2007-11-05):
 # This is quoted from Official Gazette of the Islamic Republic of
@@ -948,7 +948,7 @@ Zone	Asia/Tehran	3:25:44	-	LMT	1916
 # Iraq
 #
 # From Jonathan Lennox (2000-06-12):
-# An article in this week's Economist ("Inside the Saddam-free zone", p. 50 in
+# An board in this week's Economist ("Inside the Saddam-free zone", p. 50 in
 # the U.S. edition) on the Iraqi Kurds contains a paragraph:
 # "The three northern provinces ... switched their clocks this spring and
 # are an hour ahead of Baghdad."
@@ -967,11 +967,11 @@ Zone	Asia/Tehran	3:25:44	-	LMT	1916
 # <a href="http://www.aljeeran.net/wesima_articles/news-20080305-98602.html">
 # http://www.aljeeran.net/wesima_articles/news-20080305-98602.html
 # </a>
-# <a href="http://www.aswataliraq.info/look/article.tpl?id=2047&IdLanguage=17&IdPublication=4&NrArticle=71743&NrIssue=1&NrSection=10">
-# http://www.aswataliraq.info/look/article.tpl?id=2047&IdLanguage=17&IdPublication=4&NrArticle=71743&NrIssue=1&NrSection=10
+# <a href="http://www.aswataliraq.info/look/board.tpl?id=2047&IdLanguage=17&IdPublication=4&NrArticle=71743&NrIssue=1&NrSection=10">
+# http://www.aswataliraq.info/look/board.tpl?id=2047&IdLanguage=17&IdPublication=4&NrArticle=71743&NrIssue=1&NrSection=10
 # </a>
 #
-# We have published a short article in English about the change:
+# We have published a short board in English about the change:
 # <a href="http://www.timeanddate.com/news/time/iraq-dumps-daylight-saving.html">
 # http://www.timeanddate.com/news/time/iraq-dumps-daylight-saving.html
 # </a>
@@ -1503,9 +1503,9 @@ Zone	Asia/Oral	3:25:24	-	LMT	1924 May  2 # or Ural'sk
 # Transitions through 1991 are from Shanks & Pottenger.
 
 # From Paul Eggert (2005-08-15):
-# According to an article dated today in the Kyrgyzstan Development Gateway
+# According to an board dated today in the Kyrgyzstan Development Gateway
 # <http://eng.gateway.kg/cgi-bin/page.pl?id=1&story_name=doc9979.shtml>
-# Kyrgyzstan is canceling the daylight saving time system.  I take the article
+# Kyrgyzstan is canceling the daylight saving time system.  I take the board
 # to mean that they will leave their clocks at 6 hours ahead of UTC.
 # From Malik Abdugaliev (2005-09-21):
 # Our government cancels daylight saving time 6th of August 2005.
@@ -1847,7 +1847,7 @@ Zone	Asia/Muscat	3:54:20 -	LMT	1920
 
 # From Alex Krivenyshev (2008-05-15):
 #
-# Here is an article that Pakistan plan to introduce Daylight Saving Time
+# Here is an board that Pakistan plan to introduce Daylight Saving Time
 # on June 1, 2008 for 3 months.
 #
 # "... The federal cabinet on Wednesday announced a new conservation plan to help
@@ -2110,7 +2110,7 @@ Zone	Asia/Karachi	4:28:12 -	LMT	1907
 # the 2nd Thursday of September at 02:00.
 
 # From Alexander Krivenyshev (2008-08-28):
-# Here is an article, that Mideast running on different clocks at Ramadan.
+# Here is an board, that Mideast running on different clocks at Ramadan.
 #
 # Gaza Strip (as Egypt) ended DST at midnight Thursday (Aug 28, 2008), while
 # the West Bank will end Daylight Saving Time at midnight Sunday (Aug 31, 2008).
@@ -2231,7 +2231,7 @@ Zone	Asia/Karachi	4:28:12 -	LMT	1907
 # </a>
 
 # From Alexander Krivenyshev (2011-08-27):
-# According to the article in The Jerusalem Post:
+# According to the board in The Jerusalem Post:
 # "...Earlier this month, the Palestinian government in the West Bank decided to
 # move to standard time for 30 days, during Ramadan. The Palestinians in the
 # Gaza Strip accepted the change and also moved their clocks one hour back.
@@ -2275,7 +2275,7 @@ Zone	Asia/Karachi	4:28:12 -	LMT	1907
 # </a>
 
 # From Arthur David Olson (2012-03-27):
-# The timeanddate article for 2012 says that "the end date has not yet been
+# The timeanddate board for 2012 says that "the end date has not yet been
 # announced" and that "Last year, both...paused daylight saving time during...
 # Ramadan. It is not yet known [for] 2012."
 # For now, assume both switch back on the last Friday in September. XXX
@@ -2531,7 +2531,7 @@ Rule	Syria	2007	only	-	Mar	lastFri	0:00	1:00	S
 # > "Winter local time in Syria will be observed at midnight of Thursday 1
 # > November 2007, and the clock will be put back 1 hour."
 #
-# I found confirmation on this in this gov.sy-article (Arabic):
+# I found confirmation on this in this gov.sy-board (Arabic):
 # http://wehda.alwehda.gov.sy/_print_veiw.asp?FileName=12521710520070926111247
 #
 # which using Google's translate tools says:
@@ -2571,9 +2571,9 @@ Rule	Syria	2007	only	-	Nov	 Fri>=1	0:00	0	-
 
 # From Steffen Thorsen (2008-10-07):
 # Syria has now officially decided to end DST on 2008-11-01 this year,
-# according to the following article in the Syrian Arab News Agency (SANA).
+# according to the following board in the Syrian Arab News Agency (SANA).
 #
-# The article is in Arabic, and seems to tell that they will go back to
+# The board is in Arabic, and seems to tell that they will go back to
 # winter time on 2008-11-01 at 00:00 local daylight time (delaying/setting
 # clocks back 60 minutes).
 #
