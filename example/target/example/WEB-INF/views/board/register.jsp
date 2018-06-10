@@ -49,6 +49,16 @@
                             </div>
 
                             <div class="form-group">
+                                <label>가격</label>
+                                <input type="text" id="price" name="price" class="form-control" placeholder="가격을 입력해주세요 ...">
+                            </div>
+
+                            <div class="form-group">
+                                <label>연락처</label>
+                                <input type="text" id="contact" name="contact" class="form-control" placeholder="연락처를 입력해주세요 ...">
+                            </div>
+
+                            <div class="form-group">
                                 <label>내용</label>
                                 <textarea class="form-control" id="content" name="content" rows="10" placeholder="내용을 입력해주세요 ..." style="resize: none;"></textarea>
                             </div>

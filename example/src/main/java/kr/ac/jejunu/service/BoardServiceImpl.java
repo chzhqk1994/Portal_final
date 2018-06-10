@@ -3,6 +3,8 @@ package kr.ac.jejunu.service;
 import kr.ac.jejunu.domain.BoardVO;
 import kr.ac.jejunu.persistance.BoardDAO;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Isolation;
+import org.springframework.transaction.annotation.Transactional;
 
 import javax.inject.Inject;
 import java.util.List;
@@ -19,8 +21,10 @@ public class BoardServiceImpl implements BoardService {
         boardDAO.create(boardVO);
     }
 
+    @Transactional(isolation = Isolation.READ_COMMITTED)
     @Override
     public BoardVO read(Integer bno) throws Exception {
+        boardDAO.updateViewCnt(bno);
         return boardDAO.read(bno);
     }
 

@@ -45,4 +45,9 @@ public class BoardDAOImpl implements BoardDAO {
         return sqlSession.selectList(NAMESPACE + ".listAll");
     }
 
+// 게시물 조회 수
+    @Override
+    public void updateViewCnt(Integer bno) throws Exception {
+        sqlSession.update(NAMESPACE + ".updateViewCnt", bno);
+    }
 }

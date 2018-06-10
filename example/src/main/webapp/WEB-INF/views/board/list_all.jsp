@@ -60,8 +60,6 @@
                         </table>
                     </div>
                     <div class="box-footer">
-                        [페이징 처리...예정] <br/>
-                        [검색 처리...예정]
                     </div>
                 </div>
             </div>
