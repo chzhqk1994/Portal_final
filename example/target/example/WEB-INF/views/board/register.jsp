@@ -65,7 +65,7 @@
 
                             <div class="form-group">
                                 <label>작성자</label>
-                                <input type="text" class="form-control" id="writer" name="writer" placeholder="작성자를 입력해주세요 ...">
+                                <input class="form-control" id="writer" name="writer" value="${login.uid}" readonly>
                             </div>
 
                         </div>
