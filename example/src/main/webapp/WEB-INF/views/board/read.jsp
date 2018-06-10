@@ -24,12 +24,12 @@
         <%-- Content Header (Page header) --%>
         <section class="content-header">
             <h1>
-                게시판 예제
-                <small>조회페이지</small>
+                중고 게시판
+                <small>상품 조회</small>
             </h1>
             <ol class="breadcrumb">
-                <li><a href="#"><i class="fa fa-dashboard"></i> 게시판</a></li>
-                <li class="active">조회</li>
+                <li><a href="#"><i class="fa fa-dashboard"></i> 중고 게시판</a></li>
+                <li class="active">상품 조회</li>
             </ol>
         </section>
 
@@ -46,6 +46,12 @@
                             <li><a href="#" class="link-black text-lg"><i class="fa fa-bookmark margin-r-5"></i>게시글 북마크</a></li>
                             <li><a href="#" class="link-black text-lg"><i class="fa fa-thumbs-o-up margin-r-5"></i>게시글 추천(0)</a></li>
                         </ul>
+                    </div>
+                    <div class="box-header with-border">
+                        <h3 class="box-title">가격 : ${boardVO.price}</h3>
+                    </div>
+                    <div class="box-header with-border">
+                        <h3 class="box-title">판매자 연락처 : ${boardVO.contact}</h3>
                     </div>
                     <form role="form" method="post">
                         <input type="hidden" name="bno" value="${boardVO.bno}">

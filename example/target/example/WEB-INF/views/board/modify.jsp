@@ -56,6 +56,16 @@
                             </div>
 
                             <div class="form-group">
+                                <label for="title">가격</label>
+                                <input type="text" id="price" name="price" class="form-control" value="${boardVO.price}" >
+                            </div>
+
+                            <div class="form-group">
+                                <label for="title">연락처</label>
+                                <input type="text" id="contact" name="contact" class="form-control" value="${boardVO.contact}" >
+                            </div>
+
+                            <div class="form-group">
                                 <label for="content">내용</label>
                                 <textarea class="form-control" id="content" name="content" rows="10" style="resize: none;">${boardVO.content}</textarea>
                             </div>

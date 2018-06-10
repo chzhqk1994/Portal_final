@@ -6,6 +6,8 @@ public class BoardVO {
 
     private Integer bno;        // 게시글번호
     private String title;       // 제목
+    private String price;       // 가격
+    private String contact;       // 연락처
     private String content;     // 내용
     private String writer;      // 작성자
     private Date regdate;       // 작성일자
@@ -25,6 +27,22 @@ public class BoardVO {
 
     public void setTitle(String title) {
         this.title = title;
+    }
+
+    public String getPrice() {
+        return price;
+    }
+
+    public void setPrice(String price) {
+        this.price = price;
+    }
+
+    public String getContact() {
+        return contact;
+    }
+
+    public void setContact(String contact) {
+        this.contact = contact;
     }
 
     public String getContent() {
@@ -64,6 +82,8 @@ public class BoardVO {
         return "BoardVO{" +
                 "bno=" + bno +
                 ", title='" + title + '\'' +
+                ", price='" + price + '\'' +
+                ", contact='" + contact + '\'' +
                 ", content='" + content + '\'' +
                 ", writer='" + writer + '\'' +
                 ", regdate=" + regdate +

@@ -23,8 +23,8 @@
         <%-- Content Header (Page header) --%>
         <section class="content-header">
             <h1>
-                메인페이지
-                <small>스프링연습예제</small>
+                중고나라
+                <small>메인 페이지</small>
             </h1>
             <ol class="breadcrumb">
                 <li><a href="#"><i class="fa fa-dashboard"></i> Main</a></li>

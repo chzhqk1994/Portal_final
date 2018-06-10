@@ -11,10 +11,14 @@
     <insert id="create">
         INSERT INTO tbl_board (
         title
+        , price
+        , contact
         , content
         , writer
         ) VALUES (
         #{title}
+        , #{price}
+        , #{contact}
         , #{content}
         , #{writer}
         )
@@ -24,6 +28,8 @@
         SELECT
         bno
         , title
+        , price
+        , contact
         , content
         , writer
         , regdate
@@ -34,7 +40,7 @@
 
     <update id="update">
         UPDATE tbl_board
-        SET title = #{title}, content = #{content}
+        SET title = #{title}, price = #{price}, contact = #{contact}, content = #{content}
         WHERE bno = #{bno}
     </update>
 
@@ -47,6 +53,8 @@
         SELECT
             bno
             , title
+            , price
+            , contact
             , content
             , writer
             , regdate

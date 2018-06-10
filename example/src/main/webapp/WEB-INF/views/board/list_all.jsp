@@ -20,11 +20,11 @@
         <%-- Content Header (Page header) --%>
         <section class="content-header">
             <h1>
-                게시판 예제
-                <small>목록페이지</small>
+                중고 게시판
+                <small>전체목록</small>
             </h1>
             <ol class="breadcrumb">
-                <li><a href="#"><i class="fa fa-dashboard"></i> 게시판</a></li>
+                <li><a href="#"><i class="fa fa-dashboard"></i>중고 게시판</a></li>
                 <li class="active">전체목록</li>
             </ol>
         </section>

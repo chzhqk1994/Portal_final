@@ -4,8 +4,7 @@
 <footer class="main-footer">
     <%-- To the right --%>
     <div class="pull-right hidden-xs">
-        더블에스 스프링 연습예제
     </div>
     <%-- Default to the left --%>
-    <strong>Copyright &copy; 2017 <a href="http://doublesprogramming.tistory.com/">Doubles : SpringMVC-Examples</a>.</strong> All rights reserved.
+    <strong>Copyright &copy; 2018 <a href="https://github.com/chzhqk1994/Portal_final">Portal_Service</a></strong> All rights reserved.
 </footer>

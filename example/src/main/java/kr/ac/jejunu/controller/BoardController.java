@@ -25,7 +25,6 @@ public class BoardController {
     // 게시글 입력페이지
     @RequestMapping(value = "/register", method = RequestMethod.GET)
     public void registerGET(BoardVO boardVO, Model model) throws Exception {
-
         logger.info("registerGET() : called... ");
 
     }
@@ -37,10 +36,8 @@ public class BoardController {
         logger.info("registerPOST() : called...");
         logger.info("Inserted BoardVO : " + boardVO);
         boardService.register(boardVO);
-        //model.addAttribute("result", "success");
         rttr.addFlashAttribute("msg", "INSERT"); // redirect되는 시점에 한번만 사용되는 데이터 전송
 
-        //return "/board/success";
         return "redirect:/board/listAll";
     }
 
