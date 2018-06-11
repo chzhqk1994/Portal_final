@@ -8,14 +8,30 @@
 
         <%-- Sidebar user panel (optional) --%>
         <div class="user-panel">
-            <div class="pull-left image">
-                <img src="/dist/img/default-user-image.jpg" class="img-circle" alt="User Image">
-            </div>
-            <div class="pull-left info">
-                <p>Guest</p>
-                <%-- Status --%>
-                <a href="#"><i class="fa fa-circle text-success"></i> offline</a>
-            </div>
+
+            <%--로그인이 되어있지 않으면--%>
+            <c:if test="${empty login}">
+                <div class="pull-left image">
+                    <img src="/dist/img/default-user-image.jpg" class="img-circle" alt="User Image">
+                </div>
+                <div class="pull-left info">
+                    <p>Guest</p>
+                        <%-- Status --%>
+                    <a href="#"><i class="fa fa-circle text-danger"></i> OFFLINE</a>
+                </div>
+            </c:if>
+
+            <%--로그인이 되어 있으면--%>
+            <c:if test="${not empty login}">
+                <div class="pull-left image">
+                    <img src="/dist/img/default-user-image.jpg" class="img-circle" alt="User Image">
+                </div>
+                <div class="pull-left info">
+                    <p>${login.uname}</p>
+                        <%-- Status --%>
+                    <a href="#"><i class="fa fa-circle text-success"></i> ONLINE</a>
+                </div>
+            </c:if>
         </div>
 
         <%-- search form (Optional) --%>

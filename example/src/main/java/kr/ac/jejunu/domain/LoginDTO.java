@@ -1,5 +1,8 @@
 package kr.ac.jejunu.domain;
 
+
+//DTO : 화면에서 전달되는 데이터를 수정하는 용도
+//아이디, 비밀번호 등등
 public class LoginDTO {
 
     private String uid;

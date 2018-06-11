@@ -5,23 +5,23 @@
 <body class="hold-transition register-page">
 <div class="register-box">
     <div class="register-logo">
-        <a href="../../index2.html"><b>중고나라</b></a>
+        <a href="${path}"><b>중고나라</b></a>
     </div>
 
     <div class="register-box-body">
         <p class="login-box-msg">회원가입</p>
 
-        <form action="../../index.html" method="post">
+        <form action="${path}/user/register" method="post">
             <div class="form-group has-feedback">
-                <input type="text" class="form-control" placeholder="이름">
+                <input type="text" name="uid" class="form-control" placeholder="아이디">
                 <span class="glyphicon glyphicon-user form-control-feedback"></span>
             </div>
             <div class="form-group has-feedback">
-                <input type="email" class="form-control" placeholder="이메일">
-                <span class="glyphicon glyphicon-envelope form-control-feedback"></span>
+                <input type="txt" name="uname" class="form-control" placeholder="이름">
+                <span class="glyphicon glyphicon-user form-control-feedback"></span>
             </div>
             <div class="form-group has-feedback">
-                <input type="password" class="form-control" placeholder="비밀번호">
+                <input type="password" name="upw" class="form-control" placeholder="비밀번호">
                 <span class="glyphicon glyphicon-lock form-control-feedback"></span>
             </div>
             <div class="form-group has-feedback">
@@ -50,7 +50,7 @@
             <a href="#" class="btn btn-block btn-social btn-google btn-flat"><i class="fa fa-google-plus"></i>구글 계정으로 로그인</a>
         </div>
 
-        <a href="login.html" class="text-center">이미 가입한 계정이 있습니다</a>
+        <a href="${path}/user/login" class="text-center">이미 가입한 계정이 있습니다</a>
     </div>
     <!-- /.form-box -->
 </div>

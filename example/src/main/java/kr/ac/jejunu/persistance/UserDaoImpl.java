@@ -17,8 +17,15 @@ public class UserDaoImpl implements UserDao {
 
     private static final String NAMESPACE = "kr.ac.jejunu.mapper.UserMapper";
 
+//    로그인 처리
     @Override
     public User login(LoginDTO loginDTO) throws Exception {
         return sqlSession.selectOne(NAMESPACE + ".login", loginDTO);
+    }
+
+    //    회원가입 처리
+    @Override
+    public void register(User user) throws Exception {
+        sqlSession.insert(NAMESPACE + ".register", user);
     }
 }
