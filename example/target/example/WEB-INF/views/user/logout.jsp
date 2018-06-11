@@ -5,8 +5,8 @@
 </head>
 <body>
 <script>
-    alert("아이디와 비밀번호를 확인해주세요.");
-    self.location = "/user/login";
+    alert("로그아웃 되었습니다.");
+    self.location = "/";
 </script>
 </body>
 </html>

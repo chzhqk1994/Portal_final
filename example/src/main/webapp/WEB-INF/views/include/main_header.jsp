@@ -21,51 +21,62 @@
         <div class="navbar-custom-menu">
             <ul class="nav navbar-nav">
                 <%-- User Account Menu --%>
-                <li class="dropdown user user-menu">
-                    <%-- Menu Toggle Button --%>
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                        <%-- The user image in the navbar--%>
-                        <img src="/dist/img/default-user-image.jpg" class="user-image" alt="User Image">
-                        <%-- hidden-xs hides the username on small devices so only the image appears. --%>
-                        <span class="hidden-xs">Guest</span>
-                    </a>
-                    <ul class="dropdown-menu">
-                        <%-- The user image in the menu --%>
-                        <li class="user-header">
-                            <img src="/dist/img/default-user-image.jpg" class="img-circle" alt="User Image">
-
-                            <p>
-                                Guest
-                                <small>Member since Nov. 2012</small>
-                            </p>
-                        </li>
-                        <%-- Menu Body --%>
-                        <li class="user-body">
-                            <div class="row">
-                                <div class="col-xs-4 text-center">
-                                    <a href="#">Followers</a>
+                <c:if test="${not empty login}">
+                    <li class="dropdown user user-menu">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                            <img src="${path}/dist/img/default-user-image.jpg" class="user-image" alt="User Image">
+                            <span class="hidden-xs">${login.uname}</span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li class="user-header">
+                                <img src="${path}/dist/img/default-user-image.jpg" class="img-circle" alt="User Image">
+                                <p>
+                                    <small>Since : 가입입자/ 최근 로그인일시</small>
+                                </p>
+                            </li>
+                            <li class="user-body">
+                                기타 기능 정보 알림
+                            </li>
+                            <li class="user-footer">
+                                <div class="pull-left">
+                                    <a href="${path}/user/profile" class="btn btn-default btn-flat"><i
+                                            class="fa fa-user-plus"></i><b> 내 프로필</b></a>
                                 </div>
-                                <div class="col-xs-4 text-center">
-                                    <a href="#">Sales</a>
+                                <div class="pull-right">
+                                    <a href="${path}/user/logout" class="btn btn-default btn-flat"><i
+                                            class="fa fa-sign-in"></i><b> 로그아웃</b></a>
                                 </div>
-                                <div class="col-xs-4 text-center">
-                                    <a href="#">Friends</a>
+                            </li>
+                        </ul>
+                    </li>
+                </c:if>
+                <c:if test="${empty login}">
+                    <li class="dropdown user user-menu">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                            <img src="/dist/img/default-user-image.jpg" class="user-image" alt="User Image">
+                            <span class="hidden-xs">회원가입 또는 로그인</span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li class="user-header">
+                                <img src="/dist/img/default-user-image.jpg" class="img-circle" alt="User Image">
+                                <p>
+                                    <b>회원가입 또는 로그인해주세요</b>
+                                    <small></small>
+                                </p>
+                            </li>
+                            <li class="user-footer">
+                                <div class="pull-left">
+                                    <a href="${path}/user/register" class="btn btn-default btn-flat"><i
+                                            class="fa fa-user-plus"></i><b> 회원가입</b></a>
                                 </div>
-                            </div>
-                            <%-- /.row --%>
-                        </li>
-                        <%-- Menu Footer--%>
-                        <li class="user-footer">
-                            <div class="pull-left">
-                                <a href="${path}/user/register" class="btn btn-default btn-flat"><i class="fa fa-user-plus"></i> 회원가입</a>
-                            </div>
-                            <div class="pull-right">
-                                <a href="${path}/user/login" class="btn btn-default btn-flat"><i class="fa fa-sign-in"></i> 로그인</a>
-                            </div>
-                        </li>
-                    </ul>
-                </li>
-                <%-- Control Sidebar Toggle Button --%>
+                                <div class="pull-right">
+                                    <a href="${path}/user/login" class="btn btn-default btn-flat"><i
+                                            class="fa fa-sign-in"></i><b> 로그인</b></a>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+                </c:if>
             </ul>
         </div>
     </nav>
