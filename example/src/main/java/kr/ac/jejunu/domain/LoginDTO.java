@@ -1,10 +1,9 @@
 package kr.ac.jejunu.domain;
 
-public class User {
+public class LoginDTO {
 
     private String uid;
     private String upw;
-    private String uname;
 
     public String getUid() {
         return uid;
@@ -22,20 +21,11 @@ public class User {
         this.upw = upw;
     }
 
-    public String getUname() {
-        return uname;
-    }
-
-    public void setUname(String uname) {
-        this.uname = uname;
-    }
-
     @Override
     public String toString() {
-        return "UserVO{" +
+        return "LoginDTO{" +
                 "uid='" + uid + '\'' +
                 ", upw='" + upw + '\'' +
-                ", uname='" + uname + '\'' +
                 '}';
     }
 }

@@ -5,7 +5,7 @@
 
 <mapper namespace="kr.ac.jejunu.mapper.UserMapper">
 
-    <select id="login" resultType="kr.ac.jejunu.domain.User">
+    <select id="login" resultType="User">
         SELECT
         uid
         , upw

@@ -1,5 +1,6 @@
 package kr.ac.jejunu.persistance;
 
+import kr.ac.jejunu.domain.LoginDTO;
 import kr.ac.jejunu.domain.User;
 import org.apache.ibatis.session.SqlSession;
 import org.springframework.stereotype.Repository;
@@ -12,26 +13,12 @@ import java.util.Map;
 public class UserDaoImpl implements UserDao {
 
     @Inject
-    SqlSession sqlSession;
+    private SqlSession sqlSession;
 
-    private static final String NAMESPACE = "kr.ac.jejunu.mapper.MemberMapper";
-
-    @Override
-    public void insertMember(User user) {
-        sqlSession.insert(NAMESPACE + ".insertMember", user);
-    }
+    private static final String NAMESPACE = "kr.ac.jejunu.mapper.UserMapper";
 
     @Override
-    public User readMember(String userid) throws Exception {
-        return (User) sqlSession.selectOne(NAMESPACE + ".selectMember", userid);
-    }
-
-    @Override
-    public User readWithPW(String userid, String password) throws Exception {
-        Map<String, Object> paraMap = new HashMap<String, Object>();
-        paraMap.put("userid", userid);
-        paraMap.put("userpw", password);
-
-        return sqlSession.selectOne(NAMESPACE + ".readWithPW", paraMap);
+    public User login(LoginDTO loginDTO) throws Exception {
+        return sqlSession.selectOne(NAMESPACE + ".login", loginDTO);
     }
 }
