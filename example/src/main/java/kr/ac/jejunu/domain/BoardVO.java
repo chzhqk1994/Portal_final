@@ -12,6 +12,7 @@ public class BoardVO {
     private String writer;      // 작성자
     private Date regdate;       // 작성일자
     private int viewcnt;       // 조회수
+    private boolean status;
 
     public Integer getBno() {
         return bno;
@@ -77,6 +78,14 @@ public class BoardVO {
         this.viewcnt = viewcnt;
     }
 
+    public boolean getStatus() {
+        return status;
+    }
+
+    public void setStatus(boolean status) {
+        this.status = status;
+    }
+
     @Override
     public String toString() {
         return "BoardVO{" +
@@ -88,6 +97,7 @@ public class BoardVO {
                 ", writer='" + writer + '\'' +
                 ", regdate=" + regdate +
                 ", viewcnt=" + viewcnt +
+                ", status=" + status +
                 '}';
     }
 }

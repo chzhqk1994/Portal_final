@@ -50,7 +50,21 @@
                             <c:forEach var="boardVO" varStatus="i" items="${list}">
                                 <tr>
                                     <td>${boardVO.bno}</td>
-                                    <td><a href="${path}/board/read?bno=${boardVO.bno}">${boardVO.title}</a></td>
+
+
+                                    <%--판매완료--%>
+                                    <c:if test="${boardVO.status eq true}">
+                                        <td><a href="${path}/board/read?bno=${boardVO.bno}">${boardVO.title} <span
+                                                class="badge bg-aqua">판매완료</span></a>
+                                        </td>
+                                    </c:if>
+
+                                    <%--판매 중--%>
+                                    <c:if test="${boardVO.status eq false}">
+                                        <td><a href="${path}/board/read?bno=${boardVO.bno}">${boardVO.title}</a>
+                                        </td>
+                                    </c:if>
+
                                     <td>${boardVO.writer}</td>
                                     <td><fmt:formatDate pattern="yyyy-MM-dd HH:mm" value="${boardVO.regdate}"/></td>
                                     <td><span class="badge bg-aqua">${boardVO.viewcnt}</span></td>
@@ -82,7 +96,7 @@
     var result = "${msg}";
     if (result == "INSERT") {
         alert("게시글이 등록되었습니다.");
-    } else if(result == "DELETE") {
+    } else if (result == "DELETE") {
         alert("게시글이 삭제되었습니다.");
     }
 </script>

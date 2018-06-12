@@ -34,13 +34,14 @@
         , writer
         , regdate
         , viewcnt
+        , status
         FROM tbl_board
         WHERE bno = #{bno}
     </select>
 
     <update id="update">
         UPDATE tbl_board
-        SET title = #{title}, price = #{price}, contact = #{contact}, content = #{content}
+        SET title = #{title}, price = #{price}, contact = #{contact}, content = #{content}, status = #{status}
         WHERE bno = #{bno}
     </update>
 
@@ -59,6 +60,7 @@
             , writer
             , regdate
             , viewcnt
+            , status
         FROM tbl_board
         WHERE bno > 0
         ORDER BY bno DESC, regdate DESC
@@ -70,5 +72,4 @@
         SET viewcnt = viewcnt + 1
         WHERE bno = #{bno}
     </update>
-
 </mapper>

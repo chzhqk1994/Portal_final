@@ -15,5 +15,5 @@ public interface BoardDAO{
 
     public List<BoardVO> listAll() throws Exception;
 
-    void updateViewCnt(Integer articleNo) throws Exception;
+    void updateViewCnt(Integer bno) throws Exception;
 }

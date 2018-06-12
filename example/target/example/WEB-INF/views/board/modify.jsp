@@ -46,33 +46,54 @@
                         <div class="box-body">
 
                             <div class="form-group">
-                                <label for="bno">게시글 번호</label>
-                                <input type="text" id="bno" name="bno" class="form-control" value="${boardVO.bno}" readonly="readonly">
-                            </div>
-
-                            <div class="form-group">
                                 <label for="title">제목</label>
-                                <input type="text" id="title" name="title" class="form-control" value="${boardVO.title}" >
+                                <input type="text" id="title" name="title" class="form-control"
+                                       value="${boardVO.title}">
+
+                                <form method="post" action="insert.jsp">
+                                    <c:choose>
+                                        <c:when test="${boardVO.status == false}">
+                                            <label for="title"> 판매 완료
+                                                <input type="checkbox" name="status" id="status_false" class="status">
+
+
+
+                                            </label>
+                                        </c:when>
+
+                                        <c:when test="${boardVO.status == true}">
+                                            <label for="title"> 판매 완료
+                                                <input type="checkbox" name="status" id="status_true" class="status"
+                                                       checked>
+
+                                            </label>
+                                        </c:when>
+                                    </c:choose>
+                                </form>
                             </div>
 
                             <div class="form-group">
                                 <label for="title">가격</label>
-                                <input type="text" id="price" name="price" class="form-control" value="${boardVO.price}" >
+                                <input type="text" id="price" name="price" class="form-control"
+                                       value="${boardVO.price}">
                             </div>
 
                             <div class="form-group">
                                 <label for="title">연락처</label>
-                                <input type="text" id="contact" name="contact" class="form-control" value="${boardVO.contact}" >
+                                <input type="text" id="contact" name="contact" class="form-control"
+                                       value="${boardVO.contact}">
                             </div>
 
                             <div class="form-group">
                                 <label for="content">내용</label>
-                                <textarea class="form-control" id="content" name="content" rows="10" style="resize: none;">${boardVO.content}</textarea>
+                                <textarea class="form-control" id="content" name="content" rows="10"
+                                          style="resize: none;">${boardVO.content}</textarea>
                             </div>
 
                             <div class="form-group">
                                 <label for="writer">작성자</label>
-                                <input type="text" class="form-control" id="writer" name="writer" value="${boardVO.writer}" readonly="readonly">
+                                <input type="text" class="form-control" id="writer" name="writer"
+                                       value="${boardVO.writer}" readonly="readonly">
                             </div>
 
                         </div>
@@ -105,11 +126,12 @@
         var formObj = $("form[role='form']");
         console.log(formObj);
         $(".saveBtn").on("click", function () {
+            var check = $('input:checkbox[id="status_false"]').is(':checked');
             formObj.submit();
         });
 
         $(".cancelBtn").on("click", function () {
-            self.location = "/board/read?bno="+"${boardVO.bno}";
+            self.location = "/board/read?bno=" + "${boardVO.bno}";
         });
 
         $(".listBtn").on("click", function () {

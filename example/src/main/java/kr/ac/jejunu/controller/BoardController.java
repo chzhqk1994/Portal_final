@@ -84,6 +84,7 @@ public class BoardController {
         boardService.modify(boardVO);
         int bno = boardVO.getBno();
         rttr.addFlashAttribute("msg", "MODIFY");
+        System.out.println("checkbox status : " + boardVO.getStatus());
 
         return "redirect:/board/read?bno="+bno;
 

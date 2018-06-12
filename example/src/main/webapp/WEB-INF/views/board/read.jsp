@@ -40,7 +40,19 @@
 
                 <div class="box box-primary">
                     <div class="box-header with-border">
-                        <h3 class="box-title">제목 : ${boardVO.title}</h3>
+
+                        <c:choose>
+                            <c:when test="${boardVO.status == true}">
+                                <h3 class="box-title">제목 : ${boardVO.title}  <span class="badge bg-aqua"> 판매완료 </span></h3>
+
+                            </c:when>
+
+                            <c:when test="${boardVO.status == false}">
+                                <h3 class="box-title">제목 : ${boardVO.title}</h3>
+
+                            </c:when>
+                        </c:choose>
+
                         <ul class="list-inline pull-right">
                             <li><a href="#" class="link-black text-lg"><i class="fa fa-share margin-r-5"></i>게시글 공유</a></li>
                             <li><a href="#" class="link-black text-lg"><i class="fa fa-bookmark margin-r-5"></i>게시글 북마크</a></li>
