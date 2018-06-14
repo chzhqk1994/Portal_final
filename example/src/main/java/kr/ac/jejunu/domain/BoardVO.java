@@ -12,7 +12,7 @@ public class BoardVO {
     private String writer;      // 작성자
     private Date regdate;       // 작성일자
     private int viewcnt;       // 조회수
-    private boolean status;
+    private boolean status;    // 판매상태
 
     public Integer getBno() {
         return bno;

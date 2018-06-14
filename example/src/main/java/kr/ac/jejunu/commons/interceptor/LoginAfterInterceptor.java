@@ -15,6 +15,7 @@ public class LoginAfterInterceptor extends HandlerInterceptorAdapter {
     @Override
     public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception {
 
+        // 로그인 된 상태에서 로그인 페이지 또는 회원가입 페이지로 이동하는것을 막음
         HttpSession httpSession = request.getSession();
         if (httpSession.getAttribute("login") != null) {
             response.sendRedirect(request.getContextPath() + "/");

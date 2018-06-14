@@ -54,12 +54,10 @@ public class UserController {
 
 //        아이디 비번 확인
         User user = userService.login(loginDTO);
-
 //        틀릴 경우
         if (user == null) {
             return;
         }
-
 //        맞을 경우
         model.addAttribute("user", user);
     }
@@ -77,13 +75,6 @@ public class UserController {
 //            session 정보 초기화
             session.removeAttribute("login");
             session.invalidate();
-//            Cookie loginCookie = WebUtils.getCookie(request, "loginCookie");
-//            if (loginCookie != null) {
-//                loginCookie.setPath("/");
-//                loginCookie.setMaxAge(0);
-//                response.addCookie(loginCookie);
-//                userService.keepLogin(user.getUid(), session.getId(), new Date());
-//            }
         }
 
         return "user/logout";

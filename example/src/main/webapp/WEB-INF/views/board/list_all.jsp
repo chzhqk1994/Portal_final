@@ -43,6 +43,7 @@
                             <tr>
                                 <th style="width: 10px">NO</th>
                                 <th>제목</th>
+                                <th style="width: 100px">가격</th>
                                 <th style="width: 100px">작성자</th>
                                 <th style="width: 150px">작성시간</th>
                                 <th style="width: 50px">조회</th>
@@ -65,6 +66,7 @@
                                         </td>
                                     </c:if>
 
+                                    <td>${boardVO.price}</td>
                                     <td>${boardVO.writer}</td>
                                     <td><fmt:formatDate pattern="yyyy-MM-dd HH:mm" value="${boardVO.regdate}"/></td>
                                     <td><span class="badge bg-aqua">${boardVO.viewcnt}</span></td>
