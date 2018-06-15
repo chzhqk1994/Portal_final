@@ -71,7 +71,18 @@
                                     <td>${boardVO.price}</td>
                                     <td>${boardVO.writer}</td>
                                     <td><fmt:formatDate pattern="yyyy-MM-dd HH:mm" value="${boardVO.regdate}"/></td>
-                                    <td><span class="badge bg-aqua">${boardVO.viewcnt}</span></td>
+
+
+                                    <c:choose>
+                                        <c:when test="${boardVO.viewcnt eq 0}">
+                                            <td><span class="badge bg-aqua">${boardVO.viewcnt}</span></td>
+                                        </c:when>
+
+                                        <c:when test="${boardVO.viewcnt ne 0}">
+                                            <td><span class="badge bg-aqua">${boardVO.viewcnt - 1}</span></td>
+                                        </c:when>
+                                    </c:choose>
+
                                 </tr>
                             </c:forEach>
                             </tbody>

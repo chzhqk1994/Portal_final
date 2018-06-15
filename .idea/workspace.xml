@@ -8,34 +8,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b95ddb90-40f2-4d44-abf9-f5206717dd0b" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_3_2.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_2.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_imgscalr_imgscalr_lib_4_2.xml" afterPath="" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/example/pom.xml" afterPath="$PROJECT_DIR$/example/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/example/src/main/java/kr/ac/jejunu/controller/BoardController.java" afterPath="$PROJECT_DIR$/example/src/main/java/kr/ac/jejunu/controller/BoardController.java" />
-      <change beforePath="$PROJECT_DIR$/example/src/main/java/kr/ac/jejunu/persistance/BoardDAOImpl.java" afterPath="$PROJECT_DIR$/example/src/main/java/kr/ac/jejunu/persistance/BoardDAOImpl.java" />
-      <change beforePath="$PROJECT_DIR$/example/src/main/java/kr/ac/jejunu/service/BoardServiceImpl.java" afterPath="$PROJECT_DIR$/example/src/main/java/kr/ac/jejunu/service/BoardServiceImpl.java" />
-      <change beforePath="$PROJECT_DIR$/example/src/main/resources/mappers/memberMapper.xml" afterPath="" />
       <change beforePath="$PROJECT_DIR$/example/src/main/webapp/WEB-INF/views/board/list_all.jsp" afterPath="$PROJECT_DIR$/example/src/main/webapp/WEB-INF/views/board/list_all.jsp" />
-      <change beforePath="$PROJECT_DIR$/example/src/main/webapp/WEB-INF/views/board/modify.jsp" afterPath="$PROJECT_DIR$/example/src/main/webapp/WEB-INF/views/board/modify.jsp" />
-      <change beforePath="$PROJECT_DIR$/example/src/main/webapp/WEB-INF/views/board/read.jsp" afterPath="$PROJECT_DIR$/example/src/main/webapp/WEB-INF/views/board/read.jsp" />
-      <change beforePath="$PROJECT_DIR$/example/src/main/webapp/WEB-INF/views/board/register.jsp" afterPath="$PROJECT_DIR$/example/src/main/webapp/WEB-INF/views/board/register.jsp" />
-      <change beforePath="$PROJECT_DIR$/example/src/main/webapp/WEB-INF/views/board/success.jsp" afterPath="$PROJECT_DIR$/example/src/main/webapp/WEB-INF/views/board/success.jsp" />
-      <change beforePath="$PROJECT_DIR$/example/src/main/webapp/WEB-INF/views/include/main_header.jsp" afterPath="$PROJECT_DIR$/example/src/main/webapp/WEB-INF/views/include/main_header.jsp" />
-      <change beforePath="$PROJECT_DIR$/example/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/example/src/main/webapp/WEB-INF/web.xml" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/kr/ac/jejunu/controller/BoardController.class" afterPath="$PROJECT_DIR$/example/target/classes/kr/ac/jejunu/controller/BoardController.class" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/kr/ac/jejunu/persistance/BoardDAOImpl.class" afterPath="$PROJECT_DIR$/example/target/classes/kr/ac/jejunu/persistance/BoardDAOImpl.class" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/kr/ac/jejunu/service/BoardServiceImpl.class" afterPath="$PROJECT_DIR$/example/target/classes/kr/ac/jejunu/service/BoardServiceImpl.class" />
-      <change beforePath="$PROJECT_DIR$/example/target/classes/mappers/memberMapper.xml" afterPath="" />
       <change beforePath="$PROJECT_DIR$/example/target/example.war" afterPath="$PROJECT_DIR$/example/target/example.war" />
-      <change beforePath="$PROJECT_DIR$/example/target/example/WEB-INF/classes/kr/ac/jejunu/controller/BoardController.class" afterPath="$PROJECT_DIR$/example/target/example/WEB-INF/classes/kr/ac/jejunu/controller/BoardController.class" />
-      <change beforePath="$PROJECT_DIR$/example/target/example/WEB-INF/classes/kr/ac/jejunu/persistance/BoardDAOImpl.class" afterPath="$PROJECT_DIR$/example/target/example/WEB-INF/classes/kr/ac/jejunu/persistance/BoardDAOImpl.class" />
-      <change beforePath="$PROJECT_DIR$/example/target/example/WEB-INF/classes/kr/ac/jejunu/service/BoardServiceImpl.class" afterPath="$PROJECT_DIR$/example/target/example/WEB-INF/classes/kr/ac/jejunu/service/BoardServiceImpl.class" />
-      <change beforePath="$PROJECT_DIR$/example/target/example/WEB-INF/classes/mappers/memberMapper.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/example/target/example/WEB-INF/views/include/main_header.jsp" afterPath="$PROJECT_DIR$/example/target/example/WEB-INF/views/include/main_header.jsp" />
-      <change beforePath="$PROJECT_DIR$/example/target/example/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/example/target/example/WEB-INF/web.xml" />
+      <change beforePath="$PROJECT_DIR$/example/target/example/WEB-INF/views/board/list_all.jsp" afterPath="$PROJECT_DIR$/example/target/example/WEB-INF/views/board/list_all.jsp" />
     </list>
     <ignored path="$PROJECT_DIR$/example/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -61,7 +37,7 @@
         <entry file="file://$PROJECT_DIR$/example/src/main/webapp/WEB-INF/views/board/modify.jsp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="45">
-              <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -70,18 +46,18 @@
       <file leaf-file-name="read.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/example/src/main/webapp/WEB-INF/views/board/read.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+            <state relative-caret-position="283">
+              <caret line="54" column="35" lean-forward="true" selection-start-line="44" selection-start-column="23" selection-end-line="54" selection-end-column="35" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="list_all.jsp" pinned="false" current-in-tab="false">
+      <file leaf-file-name="list_all.jsp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/example/src/main/webapp/WEB-INF/views/board/list_all.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="251">
-              <caret line="46" column="43" lean-forward="true" selection-start-line="46" selection-start-column="43" selection-end-line="46" selection-end-column="43" />
+            <state relative-caret-position="307">
+              <caret line="82" column="49" lean-forward="true" selection-start-line="82" selection-start-column="49" selection-end-line="82" selection-end-column="49" />
               <folding />
             </state>
           </provider>
@@ -90,25 +66,25 @@
       <file leaf-file-name="boardMapper.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/example/src/main/resources/mappers/boardMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="61" column="21" lean-forward="true" selection-start-line="61" selection-start-column="21" selection-end-line="61" selection-end-column="21" />
+            <state relative-caret-position="255">
+              <caret line="55" column="19" lean-forward="false" selection-start-line="55" selection-start-column="19" selection-end-line="55" selection-end-column="19" />
               <folding>
-                <marker date="1528962705578" expanded="true" signature="354:587" ph="INSERT INTO tbl_board... " />
-                <marker date="1528962705578" expanded="true" signature="655:861" ph="SELECT bno ,... tbl_board" />
-                <marker date="1528962705578" expanded="true" signature="910:1064" ph="UPDATE tbl_board... " />
-                <marker date="1528962705578" expanded="true" signature="1113:1153" ph="DELETE FROM tbl_board... " />
-                <marker date="1528962705578" expanded="true" signature="1242:1519" ph="SELECT bno ,... tbl_board" />
-                <marker date="1528962705578" expanded="true" signature="1587:1664" ph="UPDATE tbl_board... " />
+                <marker date="1529042596872" expanded="true" signature="354:587" ph="INSERT INTO tbl_board... " />
+                <marker date="1529042596872" expanded="true" signature="655:861" ph="SELECT bno ,... tbl_board" />
+                <marker date="1529042596872" expanded="true" signature="910:1064" ph="UPDATE tbl_board... " />
+                <marker date="1529042596872" expanded="true" signature="1113:1153" ph="DELETE FROM tbl_board... " />
+                <marker date="1529042596872" expanded="true" signature="1242:1519" ph="SELECT bno ,... tbl_board" />
+                <marker date="1529042596872" expanded="true" signature="1587:1664" ph="UPDATE tbl_board... " />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BoardServiceImpl.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BoardServiceImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/example/src/main/java/kr/ac/jejunu/service/BoardServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="415">
-              <caret line="40" column="13" lean-forward="true" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
+            <state relative-caret-position="284">
+              <caret line="31" column="29" lean-forward="false" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -118,7 +94,7 @@
         <entry file="file://$PROJECT_DIR$/example/src/main/webapp/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="840">
-              <caret line="56" column="44" lean-forward="true" selection-start-line="56" selection-start-column="44" selection-end-line="56" selection-end-column="44" />
+              <caret line="56" column="44" lean-forward="false" selection-start-line="56" selection-start-column="44" selection-end-line="56" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -128,7 +104,7 @@
         <entry file="file://$PROJECT_DIR$/example/src/main/webapp/WEB-INF/views/board/register.jsp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
-              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -139,16 +115,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="375">
               <caret line="25" column="25" lean-forward="false" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BoardDAOImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/example/src/main/java/kr/ac/jejunu/persistance/BoardDAOImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="19" column="49" lean-forward="false" selection-start-line="19" selection-start-column="49" selection-end-line="19" selection-end-column="49" />
               <folding />
             </state>
           </provider>
@@ -268,7 +234,6 @@
         <option value="$PROJECT_DIR$/example/src/main/resources/mappers/userMapper.xml" />
         <option value="$PROJECT_DIR$/example/src/main/java/kr/ac/jejunu/persistance/BoardDAO.java" />
         <option value="$PROJECT_DIR$/example/src/main/webapp/WEB-INF/views/user/login.jsp" />
-        <option value="$PROJECT_DIR$/example/src/main/resources/mappers/boardMapper.xml" />
         <option value="$PROJECT_DIR$/example/src/main/webapp/WEB-INF/views/user/insert.jsp" />
         <option value="$PROJECT_DIR$/example/src/main/java/kr/ac/jejunu/domain/BoardVO.java" />
         <option value="$PROJECT_DIR$/example/src/main/java/kr/ac/jejunu/commons/interceptor/LoginAfterInterceptor.java" />
@@ -284,8 +249,9 @@
         <option value="$PROJECT_DIR$/example/src/main/webapp/WEB-INF/views/board/read.jsp" />
         <option value="$PROJECT_DIR$/example/src/main/webapp/WEB-INF/views/board/register.jsp" />
         <option value="$PROJECT_DIR$/example/src/main/webapp/WEB-INF/views/board/success.jsp" />
-        <option value="$PROJECT_DIR$/example/src/main/webapp/WEB-INF/views/board/list_all.jsp" />
         <option value="$PROJECT_DIR$/example/src/main/java/kr/ac/jejunu/service/BoardServiceImpl.java" />
+        <option value="$PROJECT_DIR$/example/src/main/resources/mappers/boardMapper.xml" />
+        <option value="$PROJECT_DIR$/example/src/main/webapp/WEB-INF/views/board/list_all.jsp" />
       </list>
     </option>
   </component>
@@ -417,7 +383,57 @@
               <item name="example" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Portal_final" type="b2602c69:ProjectViewProjectNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="mappers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Portal_final" type="b2602c69:ProjectViewProjectNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Portal_final" type="b2602c69:ProjectViewProjectNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Portal_final" type="b2602c69:ProjectViewProjectNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Portal_final" type="b2602c69:ProjectViewProjectNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Portal_final" type="b2602c69:ProjectViewProjectNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="board" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -850,7 +866,7 @@
       <workItem from="1528721807086" duration="7938000" />
       <workItem from="1528935931140" duration="15213000" />
       <workItem from="1528963568739" duration="1310000" />
-      <workItem from="1528998837922" duration="16180000" />
+      <workItem from="1528998837922" duration="17284000" />
     </task>
     <servers />
   </component>
@@ -887,7 +903,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="86017000" />
+    <option name="totallyTimeSpent" value="87121000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -1237,25 +1253,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/example/src/main/resources/mappers/userMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="21" column="29" lean-forward="false" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
-          <folding>
-            <marker date="1528917493262" expanded="true" signature="282:412" ph="SELECT uid ,... tbl_user" />
-            <marker date="1528917493262" expanded="true" signature="479:622" ph="INSERT INTO tbl_user... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/example/src/main/webapp/WEB-INF/views/board/read.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/example/src/main/webapp/WEB-INF/views/board/success.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
@@ -1267,15 +1264,7 @@
     <entry file="file://$PROJECT_DIR$/example/src/main/webapp/WEB-INF/views/board/modify.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
-          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/example/src/main/webapp/WEB-INF/views/board/list_all.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="46" column="43" lean-forward="true" selection-start-line="46" selection-start-column="43" selection-end-line="46" selection-end-column="43" />
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1283,7 +1272,7 @@
     <entry file="file://$PROJECT_DIR$/example/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="840">
-          <caret line="56" column="44" lean-forward="true" selection-start-line="56" selection-start-column="44" selection-end-line="56" selection-end-column="44" />
+          <caret line="56" column="44" lean-forward="false" selection-start-line="56" selection-start-column="44" selection-end-line="56" selection-end-column="44" />
           <folding />
         </state>
       </provider>
@@ -1299,30 +1288,57 @@
     <entry file="file://$PROJECT_DIR$/example/src/main/webapp/WEB-INF/views/board/register.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/example/src/main/resources/mappers/boardMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="61" column="21" lean-forward="true" selection-start-line="61" selection-start-column="21" selection-end-line="61" selection-end-column="21" />
-          <folding>
-            <marker date="1528962705578" expanded="true" signature="354:587" ph="INSERT INTO tbl_board... " />
-            <marker date="1528962705578" expanded="true" signature="655:861" ph="SELECT bno ,... tbl_board" />
-            <marker date="1528962705578" expanded="true" signature="910:1064" ph="UPDATE tbl_board... " />
-            <marker date="1528962705578" expanded="true" signature="1113:1153" ph="DELETE FROM tbl_board... " />
-            <marker date="1528962705578" expanded="true" signature="1242:1519" ph="SELECT bno ,... tbl_board" />
-            <marker date="1528962705578" expanded="true" signature="1587:1664" ph="UPDATE tbl_board... " />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/example/src/main/java/kr/ac/jejunu/service/BoardServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="415">
-          <caret line="40" column="13" lean-forward="true" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
+        <state relative-caret-position="284">
+          <caret line="31" column="29" lean-forward="false" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/src/main/resources/mappers/userMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="21" column="29" lean-forward="false" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+          <folding>
+            <marker date="1528917493262" expanded="true" signature="282:412" ph="SELECT uid ,... tbl_user" />
+            <marker date="1528917493262" expanded="true" signature="479:622" ph="INSERT INTO tbl_user... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/src/main/resources/mappers/boardMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="55" column="19" lean-forward="false" selection-start-line="55" selection-start-column="19" selection-end-line="55" selection-end-column="19" />
+          <folding>
+            <marker date="1529042596872" expanded="true" signature="354:587" ph="INSERT INTO tbl_board... " />
+            <marker date="1529042596872" expanded="true" signature="655:861" ph="SELECT bno ,... tbl_board" />
+            <marker date="1529042596872" expanded="true" signature="910:1064" ph="UPDATE tbl_board... " />
+            <marker date="1529042596872" expanded="true" signature="1113:1153" ph="DELETE FROM tbl_board... " />
+            <marker date="1529042596872" expanded="true" signature="1242:1519" ph="SELECT bno ,... tbl_board" />
+            <marker date="1529042596872" expanded="true" signature="1587:1664" ph="UPDATE tbl_board... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/src/main/webapp/WEB-INF/views/board/read.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="54" column="35" lean-forward="true" selection-start-line="44" selection-start-column="23" selection-end-line="54" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/src/main/webapp/WEB-INF/views/board/list_all.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="82" column="49" lean-forward="true" selection-start-line="82" selection-start-column="49" selection-end-line="82" selection-end-column="49" />
           <folding />
         </state>
       </provider>
