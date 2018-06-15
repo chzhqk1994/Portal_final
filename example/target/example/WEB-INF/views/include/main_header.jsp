@@ -31,11 +31,8 @@
                             <li class="user-header">
                                 <img src="${path}/dist/img/default-user-image.jpg" class="img-circle" alt="User Image">
                                 <p>
-                                    <small>Since : 가입입자/ 최근 로그인일시</small>
+                                    <span>${login.uname} 님 환영합니다.</span>
                                 </p>
-                            </li>
-                            <li class="user-body">
-                                기타 기능 정보 알림
                             </li>
                             <li class="user-footer">
                                 <div class="pull-left">

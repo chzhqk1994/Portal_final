@@ -2,6 +2,8 @@ package kr.ac.jejunu.persistance;
 
 import kr.ac.jejunu.domain.BoardVO;
 import org.apache.ibatis.session.SqlSession;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Repository;
 
 import javax.inject.Inject;
@@ -9,6 +11,8 @@ import java.util.List;
 
 @Repository
 public class BoardDAOImpl implements BoardDAO {
+
+    private static final Logger logger = LoggerFactory.getLogger(BoardDAOImpl.class);
 
     @Inject
     private SqlSession sqlSession;

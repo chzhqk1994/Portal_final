@@ -1,4 +1,6 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%request.setCharacterEncoding("utf-8");%>
+<%response.setContentType("text/html; charset=utf-8"); %>
 <!DOCTYPE html>
 <html>
 
@@ -20,11 +22,11 @@
         <%-- Content Header (Page header) --%>
         <section class="content-header">
             <h1>
-                중고 게시판
+                중고나라
                 <small>전체목록</small>
             </h1>
             <ol class="breadcrumb">
-                <li><a href="#"><i class="fa fa-dashboard"></i>중고 게시판</a></li>
+                <li><a href="#"><i class="fa fa-dashboard"></i>게시판</a></li>
                 <li class="active">전체목록</li>
             </ol>
         </section>

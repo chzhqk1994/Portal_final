@@ -17,8 +17,10 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.source>1.7</maven.compiler.source>
     <maven.compiler.target>1.7</maven.compiler.target>
+    <encoding-char>UTF-8</encoding-char>
 
     <java-version>1.8</java-version>
+    <encoding-char>UTF-8</encoding-char>
     <org.springframework-version>4.3.16.RELEASE</org.springframework-version>
     <org.aspectj-version>1.6.10</org.aspectj-version>
     <org.slf4j-version>1.6.6</org.slf4j-version>

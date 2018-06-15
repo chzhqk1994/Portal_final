@@ -15,6 +15,7 @@ public class BoardServiceImpl implements BoardService {
     @Inject
     private BoardDAO boardDAO;
 
+    // 여기에서 한글이 깨짐
     @Override
     public void register(BoardVO boardVO) throws Exception {
         boardDAO.create(boardVO);

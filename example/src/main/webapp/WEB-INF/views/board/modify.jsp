@@ -1,5 +1,6 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-
+<%request.setCharacterEncoding("utf-8");%>
+<%response.setContentType("text/html; charset=utf-8"); %>
 
 <!DOCTYPE html>
 
@@ -24,7 +25,6 @@
         <%-- Content Header (Page header) --%>
         <section class="content-header">
             <h1>
-                게시판 예제
                 <small>수정페이지</small>
             </h1>
             <ol class="breadcrumb">
@@ -40,7 +40,7 @@
 
                 <div class="box box-primary">
                     <div class="box-header with-border">
-                        <h3 class="box-title">게시글 수정</h3>
+                        <h3 class="box-title">상품 정보 수정</h3>
                     </div>
                     <form role="form" method="post">
                         <div class="box-body">

@@ -23,16 +23,15 @@ public class BoardController {
     private BoardService boardService;
 
     // 게시글 입력페이지
-    @RequestMapping(value = "/register", method = RequestMethod.GET)
+    @RequestMapping(value = "/register", produces = "text/plain;charset=UTF-8", method = RequestMethod.GET)
     public void registerGET(BoardVO boardVO, Model model) throws Exception {
         logger.info("registerGET() : called... ");
 
     }
 
     // 게시글 입력처리
-    @RequestMapping(value = "/register", method = RequestMethod.POST)
+    @RequestMapping(value = "/register", produces = "text/plain;charset=UTF-8", method = RequestMethod.POST)
     public String registerPOST(BoardVO boardVO, Model model, RedirectAttributes rttr) throws Exception {
-
         logger.info("registerPOST() : called...");
         logger.info("Inserted BoardVO : " + boardVO);
         boardService.register(boardVO);
@@ -42,7 +41,7 @@ public class BoardController {
     }
 
     // 게시글 전체 목록
-    @RequestMapping(value = "/listAll", method = RequestMethod.GET)
+    @RequestMapping(value = "/listAll", produces = "text/plain;charset=UTF-8", method = RequestMethod.GET)
     public String listAll(Model model) throws Exception {
 
         logger.info("listAll() : called...");
@@ -53,7 +52,7 @@ public class BoardController {
     }
 
     // 게시글 조회
-    @RequestMapping(value = "/read", method = RequestMethod.GET)
+    @RequestMapping(value = "/read", produces = "text/plain;charset=UTF-8", method = RequestMethod.GET)
     public String read(@RequestParam("bno") int bno, Model model) throws Exception {
 
         logger.info("read() : called...");
@@ -64,7 +63,7 @@ public class BoardController {
     }
 
     // 게시글 수정페이지
-    @RequestMapping(value = "/modify", method = RequestMethod.GET)
+    @RequestMapping(value = "/modify", produces = "text/plain;charset=UTF-8", method = RequestMethod.GET)
     public String modifyGET(@RequestParam("bno") int bno, Model model) throws Exception {
 
         logger.info("modifyGET() : called...");
@@ -76,7 +75,7 @@ public class BoardController {
 
 
     // 게시글 수정처리
-    @RequestMapping(value = "/modify", method = RequestMethod.POST)
+    @RequestMapping(value = "/modify", produces = "text/plain;charset=UTF-8", method = RequestMethod.POST)
     public String modifyPOST(BoardVO boardVO, RedirectAttributes rttr) throws Exception {
 
         logger.info("modifyPOST() : called...");
@@ -91,7 +90,7 @@ public class BoardController {
     }
 
     // 게시글 삭제처리
-    @RequestMapping(value = "/remove", method = RequestMethod.POST)
+    @RequestMapping(value = "/remove", produces = "text/plain;charset=UTF-8", method = RequestMethod.POST)
     public String remove(@RequestParam("bno") int bno, RedirectAttributes rttr) throws Exception {
 
         logger.info("remove() : called...");
